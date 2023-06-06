@@ -1,0 +1,56 @@
+HELP.md
+<<<<<<< HEAD
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+=======
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+>>>>>>> 2cf6e57 (Refactoring paquetes, variables date, bean mapper)
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+<<<<<<< HEAD
+=======
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+>>>>>>> 2cf6e57 (Refactoring paquetes, variables date, bean mapper)
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+<<<<<<< HEAD
+=======
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+>>>>>>> 2cf6e57 (Refactoring paquetes, variables date, bean mapper)
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+<<<<<<< HEAD
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+=======
+>>>>>>> 2cf6e57 (Refactoring paquetes, variables date, bean mapper)
+
+### VS Code ###
+.vscode/

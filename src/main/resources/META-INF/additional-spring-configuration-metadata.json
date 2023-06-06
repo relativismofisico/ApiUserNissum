@@ -1,0 +1,25 @@
+{"properties": [
+  {
+    "name": "encrypted.password",
+    "type": "java.lang.String",
+    "description": "A description for 'encrypted.password'"
+  },
+  {
+    "name": "password.regexp",
+    "type": "java.lang.String",
+    "description": "A description for 'password.regexp'"
+  },
+  {
+<<<<<<< HEAD
+=======
+    "name": "PASSWORD_REGEX",
+    "type": "java.lang.String",
+    "description": "A description for 'PASSWORD_REGEX'"
+  },
+  {
+>>>>>>> 2cf6e57 (Refactoring paquetes, variables date, bean mapper)
+    "name": "email.validation",
+    "type": "java.lang.String",
+    "description": "A description for 'email.validation'"
+  }
+]}
