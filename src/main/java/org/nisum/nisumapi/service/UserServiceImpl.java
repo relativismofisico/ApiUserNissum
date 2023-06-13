@@ -52,13 +52,14 @@ public class UserServiceImpl implements IUserService{
         return user;
     }
 
-    public Optional<User> findById(Integer idUser) {
+    public Optional<User> findById(Long idUser) {
 
         if (!userRepository.existsById(idUser)) {
             throw new ResourceNotFoundException("El usuario no puede ser encontrado, intente nuevamente o contacte al admin");
         }
-
+        
         return userRepository.findById(idUser);
+        //System.out.println(userRepository.findById(idUser));
     }
 
     public List<User> findAll() {

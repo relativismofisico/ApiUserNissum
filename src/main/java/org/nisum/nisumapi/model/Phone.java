@@ -1,6 +1,5 @@
 package org.nisum.nisumapi.model;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.*;
 
 import javax.persistence.*;

@@ -58,12 +58,13 @@ public class UserController {
         }
     }
 
-    @GetMapping(value="/{id}", produces = "application/json")
-    public ResponseEntity<?> getUserById(@PathVariable Integer idUser) {
+    @GetMapping(value="/findById/{idUser}", produces = "application/json")
+    public ResponseEntity<?> getUserById(@PathVariable("idUser") Long idUser) {
 
         Optional<User> optional = userService.findById(idUser);
-
+        System.out.print(optional);
         if (!optional.isPresent()) {
+        	System.out.print(optional);
             throw new ResourceNotFoundException(String.format("El usuario $0 no fue encontrado.", idUser));
         }
         return ResponseEntity.ok(optional.get());

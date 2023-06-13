@@ -9,7 +9,7 @@ import org.nisum.nisumapi.model.User;
 public interface IUserService {
 
 	public User insert(UserDTORequest userDTO);
-	public Optional<User> findById(Integer idUser);
+	public Optional<User> findById(Long idUser);
 	public List<User> findAll();
 	public Optional<User> findByEmail(String email);
 }
